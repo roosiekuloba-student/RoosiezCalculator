@@ -4,7 +4,7 @@ from tkinter import *
 root = Tk()
 
 root.title("Roosiez Calculator")
-
+root.iconbitmap('C:\\Users\\Owner\\Desktop\\Visual Studio\\Year 2\\RoosiezCalculator\\CalculatorIcon.ico')
 e = Entry(root, width=43, borderwidth=5)
 
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
@@ -108,7 +108,7 @@ button_divide = Button(root, text="/", padx=41, pady=20,
 
 # Add some styling:
 
-root.configure(bg='#5caf7f')
+root.configure(bg='#5caf7f',)
 e.config(bd=5, bg='#D3D3D3', relief='sunken', fg='#000000')
 button_1.config(bd=5, bg='#5caf7f', relief='raised', fg='white')
 
